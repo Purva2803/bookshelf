@@ -1,0 +1,27 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Added this line to center the text within the category */
+}
+
+.category > div {
+  width: 300px;
+  margin: 10px;
+  display: flex; /* Added this line to enable centering */
+  flex-direction: column; /* Added this line to stack the elements vertically */
+  align-items: center; /* Added this line to center the elements horizontally */
+}
+
+.category img {
+  width: 200px;
+  height: 300px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
